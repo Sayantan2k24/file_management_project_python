@@ -20,6 +20,7 @@ def rename_file(directory, old_name, new_name):
 	print(f"Your File Is Ready In This Location: {new_path}")
 
 
+# 3
 # Delete the file/folder
 def delete_path(directory, name):
 	path = os.path.join(directory, name)
@@ -34,7 +35,7 @@ def delete_path(directory, name):
 		print(f"Success: Directory {path} Deleted Successfully")
 
 	else:
-		print("Cannot Remove '{path}': No Such File or Directory")
+		print(f"Cannot Remove '{path}': No Such File or Directory")
 
 # Create a directory
 def create_directory(directory, folder_name):
