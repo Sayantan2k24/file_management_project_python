@@ -98,6 +98,6 @@ def main():
         choice = input("Enter your choice: ")
 
         if menu_options.get(choice, invalid_choice)() == "exit":
-            break  # Exit loop if exit_program() returns "exit" # function calling    
+            break  # Exit loop if exit_program() returns "exit"  
 
 main()
