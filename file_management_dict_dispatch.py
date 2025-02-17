@@ -82,7 +82,7 @@ def main():
         "1": list_directory_content,
         "2": rename_file,
         "3": delete_path,
-		"4": create_directory,
+        "4": create_directory,
         "5": exit_program
     } 
 	
@@ -96,7 +96,7 @@ def main():
         print("5. Exit")
 		
         choice = input("Enter your choice: ")
-        
+
         if menu_options.get(choice, invalid_choice)() == "exit":
             break  # Exit loop if exit_program() returns "exit" # function calling    
 
